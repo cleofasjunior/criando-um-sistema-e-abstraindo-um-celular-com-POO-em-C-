@@ -1,22 +1,66 @@
-# DIO - Trilha .NET - Programação orientada a objetos
-www.dio.me
+# 🚀 POO na Prática: Sistema de Smartphones em .NET
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
+Projeto desenvolvido no módulo **Programação Orientada a Objetos**, da trilha **.NET** da [DIO](https://www.dio.me).  
 
-## Contexto
-Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+Este desafio teve como objetivo aplicar conceitos de **abstração, herança e polimorfismo** em C#, modelando um sistema que representa diferentes tipos de **smartphones** com comportamentos específicos para cada marca.
 
-## Proposta
-Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
-Você deve criar as suas classes de acordo com o diagrama abaixo:
 
-![Diagrama classes](Imagens/diagrama.png)
 
-## Regras e validações
-1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
-2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
-3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
+## 📌 Desafio de Projeto
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+O desafio consistiu em criar um sistema console em .NET que: 
+
+- Define uma classe abstrata `Smartphone`, servindo como modelo base.  
+- Implementa classes derivadas para **Nokia** e **iPhone**, cada uma com seus comportamentos específicos.  
+- Permite instalar aplicativos de forma distinta em cada tipo de celular, reforçando o conceito de **polimorfismo**.  
+
+---
+
+## 🎯 Habilidades e Experiências Profissionais Evidenciadas
+
+Durante o desenvolvimento do projeto, foram praticados e consolidados conhecimentos que têm aplicação direta no mercado de trabalho:  
+
+- ✅ **Abstração**: criação de uma classe base genérica para representar características comuns de smartphones.  
+- ✅ **Herança**: especialização da classe `Smartphone` em `Nokia` e `iPhone`.  
+- ✅ **Polimorfismo**: sobrescrita do método `InstalarAplicativo`, respeitando as particularidades de cada modelo.  
+- ✅ **Encapsulamento**: uso adequado de propriedades e métodos para proteger e organizar os dados.  
+- ✅ **Boas práticas de arquitetura orientada a objetos**: favorecendo reuso, manutenção e extensibilidade do código.  
+- ✅ **Experiência prática com C#** em desenvolvimento de sistemas orientados a objetos dentro do ecossistema .NET.  
+
+Essas habilidades demonstram domínio em modelagem de software, um diferencial essencial para atuar em projetos corporativos que exigem código limpo, reutilizável e de fácil evolução.  
+
+
+
+## 📖 Regras Implementadas
+
+1. A classe `Smartphone` é abstrata e não pode ser instanciada.  
+2. As classes `Nokia` e `iPhone` são filhas de `Smartphone`.  
+3. O método `InstalarAplicativo` foi sobrescrito em cada classe filha, implementando comportamentos distintos.  
+
+
+
+## 🛠️ Estrutura do Sistema
+
+- **Classe Abstrata `Smartphone`** → Modelo genérico para celulares.  
+- **Classe `Nokia`** → Especialização com comportamento próprio de instalação.  
+- **Classe `iPhone`** → Especialização com comportamento próprio de instalação.  
+
+
+
+## 📊 Diagrama de Classes
+
+<img width="1228" height="692" alt="image" src="https://github.com/user-attachments/assets/aa349881-0270-4f57-b28b-b247606f88c0" />
+
+
+
+## 🚀 Aprendizados e Relevância Profissional
+
+Este projeto consolidou conceitos de **POO em C#** aplicáveis a cenários reais de desenvolvimento de software, como: 
+
+- Criação de arquiteturas orientadas a objetos reutilizáveis.  
+- Implementação de sistemas com **extensibilidade e baixo acoplamento**.  
+- Uso de abstração para modelar soluções mais próximas do mundo real.  
+
+Com ele, ficou evidenciada a capacidade de aplicar princípios de **engenharia de software** para criar sistemas bem estruturados, manuteníveis e alinhados às práticas utilizadas no mercado.  
+
+---
